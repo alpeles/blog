@@ -225,6 +225,8 @@ Benefits: deterministic paths, rapid onboarding, ownership separation, uniform t
 ---
 
 ## Impact (Early Signals)
+<div class="table-scroll">
+
 | Phase (Steps) | Before (hrs) | After (hrs) | Delta % | Notes |
 |---------------|--------------|-------------|---------|-------|
 | Source Profiling & Bronze (3) | 2.0 | 0.9 | -55% | Automated profiling queries + auto-generated pipeline |
@@ -234,15 +236,21 @@ Benefits: deterministic paths, rapid onboarding, ownership separation, uniform t
 | Documentation (10) | 1.0 | 0.3 | -70% | Generated Markdown |
 | Total Targeted Slice | 8.7 | 3.9 | -55% | Variation by complexity |
 
+</div>
+
 Qualitative: Higher semantic focus, reduced context switching, more consistent structural patterns.
 
 ## Risks & Mitigations
+<div class="table-scroll">
+
 | Risk | Mitigation |
 |------|------------|
 | Over-automation of semantics | Mandatory model approval gate |
 | Credential sprawl | Central secrets + audited MCP boundaries |
 | Debug opacity | Structured run logs provided by Cline |
 | Prompt regression | Versioned workflow definitions |
+
+</div>
 
 ---
 
