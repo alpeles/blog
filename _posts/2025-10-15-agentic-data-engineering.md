@@ -226,30 +226,41 @@ Benefits: deterministic paths, rapid onboarding, ownership separation, uniform t
 
 ## Impact (Early Signals)
 <div class="table-scroll">
-
-| Phase (Steps) | Before (hrs) | After (hrs) | Delta % | Notes |
-|---------------|--------------|-------------|---------|-------|
-| Source Profiling & Bronze (3) | 2.0 | 0.9 | -55% | Automated profiling queries + auto-generated pipeline |
-| Model Draft Prep (4 pre‑gate) | 1.5 | 0.8 | -47% | Agent proposal + human edits |
-| Branching / Object Scaffolding (5–6) | 1.2 | 0.4 | -67% | Multi‑repo creation + DDL generation |
-| Pipeline Build + Validation (7) | 3.0 | 1.5 | -50% | Parameterized pipeline pattern + automated validation assertions |
-| Documentation (10) | 1.0 | 0.3 | -70% | Generated Markdown |
-| Total Targeted Slice | 8.7 | 3.9 | -55% | Variation by complexity |
-
+<table>
+  <thead>
+    <tr>
+      <th>Phase (Steps)</th>
+      <th>Before (hrs)</th>
+      <th>After (hrs)</th>
+      <th>Delta %</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Source Profiling & Bronze (3)</td><td>2.0</td><td>0.9</td><td>-55%</td><td>Automated profiling queries + auto-generated pipeline</td></tr>
+    <tr><td>Model Draft Prep (4 pre‑gate)</td><td>1.5</td><td>0.8</td><td>-47%</td><td>Agent proposal + human edits</td></tr>
+    <tr><td>Branching / Object Scaffolding (5–6)</td><td>1.2</td><td>0.4</td><td>-67%</td><td>Multi‑repo creation + DDL generation</td></tr>
+    <tr><td>Pipeline Build + Validation (7)</td><td>3.0</td><td>1.5</td><td>-50%</td><td>Parameterized pipeline pattern + automated validation assertions</td></tr>
+    <tr><td>Documentation (10)</td><td>1.0</td><td>0.3</td><td>-70%</td><td>Generated Markdown</td></tr>
+    <tr><td><strong>Total Targeted Slice</strong></td><td><strong>8.7</strong></td><td><strong>3.9</strong></td><td><strong>-55%</strong></td><td>Variation by complexity</td></tr>
+  </tbody>
+</table>
 </div>
-
-Qualitative: Higher semantic focus, reduced context switching, more consistent structural patterns.
+<p><em>Qualitative:</em> Higher semantic focus, reduced context switching, more consistent structural patterns.</p>
 
 ## Risks & Mitigations
 <div class="table-scroll">
-
-| Risk | Mitigation |
-|------|------------|
-| Over-automation of semantics | Mandatory model approval gate |
-| Credential sprawl | Central secrets + audited MCP boundaries |
-| Debug opacity | Structured run logs provided by Cline |
-| Prompt regression | Versioned workflow definitions |
-
+<table>
+  <thead>
+    <tr><th>Risk</th><th>Mitigation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Over-automation of semantics</td><td>Mandatory model approval gate</td></tr>
+    <tr><td>Credential sprawl</td><td>Central secrets + audited MCP boundaries</td></tr>
+    <tr><td>Debug opacity</td><td>Structured run logs provided by Cline</td></tr>
+    <tr><td>Prompt regression</td><td>Versioned workflow definitions</td></tr>
+  </tbody>
+</table>
 </div>
 
 ---
