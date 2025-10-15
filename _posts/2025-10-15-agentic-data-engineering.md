@@ -31,9 +31,20 @@ In one week (Hackathon) we wired an AI coding agent (Cline) plus custom MCP serv
 - Safety: Conventions + constrained MCP capability surfaces (no broad shell / unrestricted queries)
 - Theme: Agentic automation amplifies data engineering productivity by codifying standards, not bypassing them
 
-![Workflow overview]({{ "/assets/images/agentic/diagram1_horizontal_hd.png" | relative_url }})
-
-Figure 1. Horizontal view of human-gated endpoints around the automated middle: profiling → model draft → branching → DDL + pipelines → validation → docs.
+<div class="exec-flow">
+  <div class="exec-flow-text">
+    <p><strong>Automated Middle (Steps 3–7 & 10):</strong> The agent accelerates profiling, model draft proposal, multi‑repo branching, DDL/object generation, pipeline authoring & validation, and documentation while preserving human semantic gates at requirements, model approval, and BI validation.</p>
+    <ul>
+      <li><strong>Human Gates:</strong> Requirements, Model Approval, BI/Semantic Validation</li>
+      <li><strong>Agent Cycle:</strong> Profiling → Draft Model → Branching → DDL/Pipelines → Validation (retry loop) → Docs</li>
+      <li><strong>Safety:</strong> Convention-enforced prompts + constrained MCP capability surfaces</li>
+    </ul>
+  </div>
+  <figure class="exec-flow-figure">
+    <img src="{{ "/assets/images/agentic/diagram1.png" | relative_url }}" alt="Automated middle bracketed by human gates: profiling, model draft, branching, DDL/pipelines, validation, docs" />
+    <figcaption>Figure 1. Automated middle bracketed by human gates.</figcaption>
+  </figure>
+</div>
 
 ---
 

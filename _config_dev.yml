@@ -1,3 +1,0 @@
-# Local development overrides (do NOT commit if you prefer matching prod URL paths)
-# This removes the /blog baseurl locally so you can browse at http://localhost:4000/
-baseurl: ""

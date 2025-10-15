@@ -3,9 +3,13 @@ description: "Agentic automation, data engineering, analytics patterns"
 theme: jekyll-theme-cayman
 url: "https://alpeles.github.io"
 baseurl: "/blog"
+repository: alpeles/blog
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+sass:
+  style: compressed
 
 # Exclude temp scaffolding
 exclude:
