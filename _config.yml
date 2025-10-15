@@ -1,0 +1,12 @@
+title: "My Tech Blog"
+description: "Agentic automation, data engineering, analytics patterns"
+theme: jekyll-theme-cayman
+url: "https://alpeles.github.io"
+baseurl: "/blog"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude temp scaffolding
+exclude:
+  - temp_files
